@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 0, 0, 0.904), rgba(252, 44, 17, 0.76));
+    overflow: hidden;
+    margin: 0; 
+}
+#login{
+    margin-top: 15%;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 38%;
+    margin-top: 10%;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: transparent;
+    border:0;
+    margin-left: 20%;
+    margin-top: 9%;
+}
+
+hr{
+    width: 60%;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: white;
+    font-size: 120%;
+    font-weight: lighter;
+    font-family: 'comfortaa';
+    background-color: transparent;
+        font-style:normal;
+        border: 1px solid #ffffff;
+        border-radius:20px 20px 20px 20px;
+        -moz-border-radius:20px 20px 20px 20px;
+        -webkit-border-radius:20px 20px 20px 20px;
+        cursor:pointer;
+        margin: 1.3%;
+        padding: 1%; 
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60%;
+}
+
+footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: 'comfortaa';
+    color: white;
+    margin-top: 6%;
+}

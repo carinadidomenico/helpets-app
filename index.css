@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 0, 0, 0.904), rgba(252, 44, 17, 0.76));
+    overflow: hidden;
+    margin: 0; 
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top: 35%;
+    margin-left: 15%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25pt;
+}
+#footer{
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 25pt;
+    margin-top: 25%;
+}
+#nome{
+    font-family: 'Comfortaa', cursive;
+    font-weight: lighter;
+    font-size: 35pt;
+}
