@@ -1,0 +1,21 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0; 
+}
+
+header{
+    background-color: brown;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+    font-family: 'Confortaa';
+    font-weight: lighter;
+}
