@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#burguer{
+    background-color: brown;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+#nome{
+    display: flex;
+ font-family: 'comfortaa';
+ font-weight: 1%;
+ font-size: 10pt;
+ align-items: center;
+ justify-content: center;
+
+}
+#imgd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+#dog{
+    width:70% ;
+    height:70% ;
+}
+
+#bur{
+    margin: 15px;
+    height: 30px;
+    margin-left: 85%;
+}
