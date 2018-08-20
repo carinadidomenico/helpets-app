@@ -19,7 +19,7 @@ section{
     align-items: center;
     width: 55%;
     margin-top: 35%;
-    margin-left: 15%;
+    margin-left: 23%;
 }
 
 footer{
@@ -28,6 +28,16 @@ footer{
     justify-content: center;
     color: white;
     font-size: 25pt;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: gray;
+    transition-duration: 1.5s;
 }
 
 #footer{

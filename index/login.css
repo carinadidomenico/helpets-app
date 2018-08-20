@@ -20,7 +20,14 @@ body{
     margin-left: 38%;
     margin-top: 10%;
 }
-
+#lembre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin-top: 20%;
+    margin-left: 22%;
+}
 .input{
     display: flex;
     justify-content: center;
@@ -60,7 +67,7 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 60%;
+    margin-top: 25%;
 }
 
 footer{

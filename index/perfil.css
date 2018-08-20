@@ -4,7 +4,7 @@ body{
     overflow: hidden;
 }
 
-header{
+#burguer{
     background-color: brown;
     width: 100%;
     height: 10%;
@@ -14,7 +14,30 @@ header{
     justify-content: flex-start;
 }
 
-img{
+#burguer img{
     margin: 15px;
     height: 30px;
+}
+
+section{
+    background-color: brown;
+    height: 125px;
+}
+
+.fperfil{
+    margin: 35px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.perfilta{
+    margin: 20px;
+    height: 135px;
+    margin-top: 0px;
+}
+
+.add{
+    margin: 20px;
+    height: 170px;
+    float: left;
 }
