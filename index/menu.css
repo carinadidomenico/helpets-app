@@ -28,34 +28,59 @@ section > div{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 24%;
 }
 
 section > div > img{
-    height: 100px;
+    height: 122px;
+    
 }
 
-section > div > p{
+section > div > a{
     font-size: 20pt;
     color: white;
     font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    margin-right: 15px;
+    
 }
-
-.tamanho{
-    height: 21.6vh;
+a{
+    margin: 0;
 }
 
 #cor1{
-    background-color: rgba(180, 1, 61, 0.87);
+    background-color: rgb(223,30,30);
 }
 
 #cor2{
-    background-color: rgba(131, 0, 50, 0.945);
+    background-color: rgb(201,37,37);
 }
 
 #cor3{
-    background-color: rgba(82, 0, 72, 0.87);
+    background-color: rgb(171,19,19);
 }
 
 #cor4{
-    background-color: rgba(102,0,0,0.945);
+    background-color: rgb(144,16,16);
+}
+#one{
+   height: 115px; 
+   margin-left: 1px;
+   margin-right: 0;
+}
+#two{
+    height: 118px;
+   margin-left: 2px;
+   margin-right: 0;
+}
+#twe{
+    height: 118px;
+    margin-left: 22px;
+    margin-right: 0;
+    
+}
+#for{
+    height: 115px;
+    margin-left: 2px;
+    margin-right: 0;
 }
