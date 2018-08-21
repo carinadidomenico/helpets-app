@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#burguer{
+    background-color: brown;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1{
+    display: inline-block;
+    font-family: 'Comfortaa';
+    font-size: 15pt;
+    font-weight: lighter;
+    color: rgb(12, 11, 11);
+
+}
+
+.burger{
+    margin: 15px;
+    height: 30px;
+    margin-left: 85%;
+}
+
+#imgh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.heart{
+    width:60%;
+    height:60%;
+    flex-direction: column;
+}
+
+#nome{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comfortaa';
+    font-weight: 1%;
+    font-size: 10pt;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 18pt;
+    font-weight: lighter;
+}
+h3{
+    font-family: 'comfortaa';
+    font-size: 20pt;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(102, 101, 101);
+}
+a{
+    color: black;
+}
