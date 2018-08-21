@@ -64,5 +64,11 @@ h3{
     color: rgb(102, 101, 101);
 }
 a{
-    color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+    margin-left: 20px;
+    font-size: 35pt;
+    margin-top: 5px;
+    font-family: 'comfortaa';
 }
