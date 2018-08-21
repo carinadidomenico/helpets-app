@@ -19,6 +19,17 @@ body{
     height: 30px;
 }
 
+h1{
+    display: flex;
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: 20pt;
+}
+
+p{
+
+}
+
 section{
     background-color: brown;
     height: 125px;
