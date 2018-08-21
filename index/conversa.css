@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#burguer{
+    background-color: brown;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bur{
+    margin: 15px;
+    height: 30px;
+}
+
+h1{
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 100%;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 100%;
+    align-items: center;  
+}
+
+#chat{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#texto{
+    width: 95%;
+    height: 35px;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: center;
+    font-size: 120%;
+    font-family: 'comfortaa';
+    background-color: transparent;
+        font-style:normal;
+        border: 1px solid grey;
+        border-radius:20px 20px 20px 20px;
+        cursor:pointer;
+}
