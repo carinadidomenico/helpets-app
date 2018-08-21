@@ -17,20 +17,21 @@ body{
 h1{
     display: inline-block;
     font-family: 'Comfortaa';
-    font-size: 20pt;
+    font-size: 15pt;
     font-weight: lighter;
-    color: white;
+    color: rgb(12, 11, 11);
 
 }
 
 .burger{
     margin: 15px;
     height: 30px;
-    margin-left: 22%;
+    margin-left: 8%;
 }
 
 #imgh{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
