@@ -15,11 +15,11 @@ body{
 }
 #nome{
     display: flex;
- font-family: 'comfortaa';
- font-weight: 1%;
- font-size: 10pt;
- align-items: center;
- justify-content: center;
+    font-family: 'comfortaa';
+    font-weight: 1%;
+    font-size: 10pt;
+    align-items: center;
+    justify-content: center;
 
 }
 #imgd{
@@ -39,6 +39,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    bottom: 25px;
 }
 
 .simbolo{
@@ -60,10 +62,14 @@ p{
     font-family: 'Comfortaa', cursive;
     font-size: 12pt;
     margin: 5%;
+    margin-bottom: 2%;
 }
 
 #bur{
     margin: 15px;
     height: 30px;
     margin-left: 85%;
+}
+#tex{
+    margin-top: -20px;
 }

@@ -17,7 +17,6 @@ body{
 h1{
     display: inline-block;
     font-family: 'Comfortaa';
-    font-size: 15pt;
     font-weight: lighter;
     color: rgb(12, 11, 11);
 
@@ -52,10 +51,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
-h2{
-    font-size: 18pt;
-    font-weight: lighter;
-}
+
 h3{
     font-family: 'comfortaa';
     font-size: 20pt;
