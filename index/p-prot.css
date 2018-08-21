@@ -13,28 +13,40 @@ body{
     display: flex;
     justify-content: flex-start;
 }
-#nome{
-    display: flex;
- font-family: 'comfortaa';
- font-weight: 1%;
- font-size: 10pt;
- align-items: center;
- justify-content: center;
+
+h1{
+    display: inline-block;
+    font-family: 'Comfortaa';
+    font-size: 20pt;
+    font-weight: lighter;
+    color: white;
 
 }
-#imgd{
+
+.burger{
+    margin: 15px;
+    height: 30px;
+    margin-left: 22%;
+}
+
+#imgh{
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
-#dog{
-    width:70% ;
-    height:70% ;
+
+.heart{
+    width:60%;
+    height:60%;
+    flex-direction: column;
 }
 
-#bur{
-    margin: 15px;
-    height: 30px;
-    margin-left: 85%;
+#nome{
+    display: flex;
+    font-family: 'Comfortaa';
+    font-weight: 1%;
+    font-size: 10pt;
+    align-items: center;
+    justify-content: center;
 }
