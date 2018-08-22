@@ -65,3 +65,22 @@ section{
     font-size: 23pt;
 }
 
+#coment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#imgi{
+    height: 167px;
+}
+h1{
+    display: inline-block;
+    font-family: 'Comfortaa';
+    font-size: 15pt;
+}
+
+h2{
+    display: inline-block;
+    font-family: 'Comfortaa';
+    font-size: 15pt;
+}
