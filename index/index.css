@@ -17,9 +17,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55%;
-    margin-top: 35%;
-    margin-left: 23%;
+    width: 100%;
+    margin: 55% auto 0;
 }
 
 footer{
