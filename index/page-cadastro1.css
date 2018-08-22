@@ -83,6 +83,7 @@ header a{
     display: flex;
     justify-content: center;
     color: red;
+    width: 60%;
     font-size: 120%;
     font-weight: lighter;
     font-family: 'comfortaa';

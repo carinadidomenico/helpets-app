@@ -2,6 +2,7 @@ body{
     margin: 0;
     height: 100%;
     overflow: hidden;
+    font-family: "Comfortaa"
 }
 
 #burguer{
@@ -17,6 +18,7 @@ body{
 #bur{
     margin: 15px;
     height: 30px;
+    cursor: pointer;
 }
 
 h1{
@@ -27,8 +29,9 @@ h1{
     align-items: center;
 }
 
-p{
+a{
     display: flex;
+    text-decoration: none;
     font-family: 'Comfortaa', cursive;
     color: white;
     font-size: 100%;
@@ -56,4 +59,24 @@ p{
         border: 1px solid grey;
         border-radius:20px 20px 20px 20px;
         cursor:pointer;
+}
+
+#menu{
+    align-items: center;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 90vh;
+    width: 100vw;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 3vh;
+    margin: 0;
+    font-size: 23pt;
 }
