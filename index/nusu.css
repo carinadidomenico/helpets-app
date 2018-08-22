@@ -12,6 +12,7 @@ body{
     left: 0;
     display: flex;
     justify-content: flex-start;
+    cursor: pointer;
 }
 
 h1{
@@ -67,4 +68,25 @@ a{
     font-size: 35pt;
     margin-top: 5px;
     font-family: 'comfortaa';
+}
+
+
+#menu{
+    align-items: center;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 90vh;
+    width: 100vw;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 3vh;
+    margin: 0;
+    font-size: 23pt;
 }

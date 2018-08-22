@@ -2,31 +2,34 @@ body{
     margin: 0;
     height: 100%;
     overflow: hidden;
+    font-family: "Comfortaa";
 }
 
 #burguer{
     background-color: brown;
-    width: 100%;
     height: 10%;
+    width: 100%;
     top: 0;
     left: 0;
     display: flex;
     justify-content: flex-start;
-}
-
-h1{
-    display: inline-block;
-    font-family: 'Comfortaa';
-    font-size: 15pt;
-    font-weight: lighter;
-    color: rgb(12, 11, 11);
-
+    cursor: pointer;
 }
 
 .burger{
     margin: 15px;
     height: 30px;
     margin-left: 75%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+    margin-left: 20px;
+    font-size: 35pt;
+    margin-top: 5px;
+    font-family: 'comfortaa';
 }
 
 #imgh{
@@ -43,6 +46,26 @@ h1{
     flex-direction: column;
 }
 
+#menu{
+    align-items: center;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 90vh;
+    width: 100vw;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 3vh;
+    margin: 0;
+    font-size: 23pt;
+}
+
 #nome{
     display: flex;
     flex-direction: column;
@@ -52,23 +75,35 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
+#nome{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Comfortaa';
+    font-weight: 1%;
+    font-size: 10pt;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    display: inline-block;
+    font-family: 'Comfortaa';
+    font-size: 15pt;
+    font-weight: lighter;
+    color: white;
+    color: rgb(12, 11, 11);
+}
+
 h2{
     font-size: 18pt;
     font-weight: lighter;
 }
+
 h3{
     font-family: 'comfortaa';
     font-size: 20pt;
     font-weight: lighter;
     text-align: center;
     color: rgb(102, 101, 101);
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 20pt;
-    margin-left: 20px;
-    font-size: 35pt;
-    margin-top: 5px;
-    font-family: 'comfortaa';
 }

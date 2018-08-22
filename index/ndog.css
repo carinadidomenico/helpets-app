@@ -2,6 +2,7 @@ body{
     margin: 0;
     height: 100%;
     overflow: hidden;
+    font-family: 'Comfortaa';
 }
 
 #burguer{
@@ -12,10 +13,10 @@ body{
     left: 0;
     display: flex;
     justify-content: flex-start;
+    cursor: pointer;
 }
 #nome{
     display: flex;
-    font-family: 'comfortaa';
     font-weight: 1%;
     font-size: 10pt;
     align-items: center;
@@ -39,8 +40,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    bottom: 25px;
 }
 
 .simbolo{
@@ -62,7 +61,6 @@ p{
     font-family: 'Comfortaa', cursive;
     font-size: 12pt;
     margin: 5%;
-    margin-bottom: 2%;
 }
 
 #bur{
@@ -70,6 +68,25 @@ p{
     height: 30px;
     margin-left: 85%;
 }
-#tex{
-    margin-top: -20px;
+
+#menu{
+    align-items: center;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 3vh;
+    font-size: 23pt;
+}
+
+#menu a:first-child{
+    margin-top: 10vh;
 }
