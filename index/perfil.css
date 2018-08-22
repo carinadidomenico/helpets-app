@@ -2,6 +2,7 @@ body{
     margin: 0;
     height: 100%;
     overflow: hidden;
+    font-family: "Comfortaa"
 }
 
 #burguer{
@@ -12,22 +13,12 @@ body{
     left: 0;
     display: flex;
     justify-content: flex-start;
+    cursor: pointer;
 }
 
 #burguer img{
     margin: 15px;
     height: 30px;
-}
-
-h1{
-    display: flex;
-    color: white;
-    font-family: 'Comfortaa';
-    font-size: 20pt;
-}
-
-p{
-
 }
 
 section{
@@ -52,3 +43,25 @@ section{
     height: 170px;
     float: left;
 }
+
+
+#menu{
+    align-items: center;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 90vh;
+    width: 100vw;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 3vh;
+    margin: 0;
+    font-size: 23pt;
+}
+

@@ -84,3 +84,27 @@ a{
     margin-left: 2px;
     margin-right: 0;
 }
+
+#menu{
+    align-items: center;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 90vh;
+    width: 100vw;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 3vh;
+    margin: 0;
+    font-size: 23pt;
+}
+
+#hamburguer{
+    cursor: pointer;
+}
