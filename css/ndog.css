@@ -61,11 +61,13 @@ body{
     margin: 8% 8% 0;
 }
 
-p{
+#seta{
     display: flex;
+    text-decoration: none;
+    font-weight: bold;
     text-align: center;
     font-family: 'Comfortaa', cursive;
-    font-size: 12pt;
+    font-size: 20pt;
     margin: 5%;
 }
 
