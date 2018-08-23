@@ -113,3 +113,11 @@ p{
     width: 80%;
     margin: 0 8% 0;
 }
+
+#heart{
+    cursor: pointer;
+}
+
+#X{
+    cursor: pointer;
+}

@@ -19,5 +19,5 @@ function aparecerBarra(){
 }
 
 function trocarTela(){
-    window.location.href = "../content/nusu.html";
+    window.location.href = "../content/p-prot.html";
 }
