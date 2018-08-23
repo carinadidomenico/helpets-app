@@ -29,12 +29,13 @@ h1{
     align-items: center;
 }
 
-a{
+#a{
     display: flex;
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
     color: white;
-    font-size: 100%;
+    font-size: 27pt;
+    font-weight: bold;
     align-items: center;  
 }
 
@@ -78,5 +79,9 @@ a{
     font-weight: bold;
     padding: 3vh;
     margin: 0;
-    font-size: 23pt;
+    font-size: 16pt;
+}
+
+#menu a:nth-child(6){
+    margin-bottom: 60px;
 }
