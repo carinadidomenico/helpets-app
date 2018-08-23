@@ -67,13 +67,14 @@ body{
     font-weight: bold;
     text-align: center;
     font-family: 'Comfortaa', cursive;
-    font-size: 20pt;
+    font-size: 30pt;
     margin: 5%;
 }
 
 #bur{
     margin: 15px;
     height: 30px;
+    margin-top: 25px;
     margin-left: 70%;
 }
 
@@ -98,3 +99,8 @@ body{
 #menu a:first-child{
     margin-top: 10vh;
 }
+
+#heart{
+    cursor: pointer;
+}
+

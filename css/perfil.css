@@ -69,19 +69,39 @@ section{
 #coment{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #imgi{
     height: 167px;
 }
 h1{
     display: inline-block;
+    margin-left: 13px;
     font-family: 'Comfortaa';
     font-size: 15pt;
 }
 
-h2{
+a{
     display: inline-block;
+    text-decoration: none;
     font-family: 'Comfortaa';
+    font-size: 15pt;
+    color: black;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+#faixa{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#faixa h1{
+    font-size: 20pt;
+    margin: 0;
+}
+
+#faixa h2{
+    margin-top: 20px;
     font-size: 15pt;
 }
