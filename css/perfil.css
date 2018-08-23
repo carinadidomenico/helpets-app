@@ -26,26 +26,6 @@ section{
     height: 125px;
 }
 
-.fperfil{
-    margin: 35px;
-    height: 100px;
-    margin-top: 5px;
-}
-
-.perfilta{
-    margin: 20px;
-    height: 135px;
-    margin-top: 0px;
-}
-
-.add{
-    margin: 20px;
-    height: 170px;
-    float: left;
-    margin-top: 0;
-}
-
-
 #menu{
     align-items: center;
     position: absolute;
@@ -66,42 +46,69 @@ section{
     font-size: 23pt;
 }
 
-#coment{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-#imgi{
-    height: 167px;
-}
-h1{
-    display: inline-block;
-    margin-left: 13px;
-    font-family: 'Comfortaa';
-    font-size: 15pt;
-}
-
-a{
-    display: inline-block;
-    text-decoration: none;
-    font-family: 'Comfortaa';
-    font-size: 15pt;
-    color: black;
-    font-weight: bold;
-    margin-right: 60px;
-}
-
 #faixa{
     display: flex;
     flex-wrap: nowrap;
 }
 
-#faixa h1{
-    font-size: 20pt;
-    margin: 0;
+.fperfil{
+    margin: 35px;
+    height: 100px;
+    margin-top: 5px;
 }
 
-#faixa h2{
-    margin-top: 20px;
+#faixa1 h1{
+    color: white;
+    font-family: 'Comfortaa';
     font-size: 15pt;
+    margin-top: 30px;
+}
+
+#faixa1 h2{
+    color: white;
+    font-family: 'Comfortaa';
+    font-size: 10pt;
+    margin-top: 0px;
+}
+
+.perfilta{
+    margin: 20px;
+    height: 135px;
+    margin-top: 0px;
+}
+
+#coment{
+    display: flex;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 13px;
+    font-family: 'Comfortaa';
+    font-weight: lighter;
+    font-size: 10pt;
+}
+
+h2{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-size: 15pt;
+    color: black;
+    font-weight: lighter;
+    margin-right: 60px;
+}
+
+.add{
+    margin: 20px;
+    height: 170px;
+    float: left;
+    margin-top: 0;
+}
+
+#imgi{
+    height: 167px;
 }

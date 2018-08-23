@@ -9,25 +9,20 @@ body{
     overflow: hidden;
     margin: 0; 
 }
-#login{
-    margin-top: 15%;
-}
+
 #logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 25%;
     margin-left: 38%;
     margin-top: 10%;
 }
-#lembre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 55%;
-    margin-top: 20%;
-    margin-left: 22%;
+
+#login{
+    margin-top: 15%;
 }
+
 .input{
     display: flex;
     justify-content: center;
@@ -43,6 +38,23 @@ hr{
     width: 60%;
 }
 
+#lembre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin-top: 20%;
+    margin-left: 22%;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25%;
+}
+
 .botao{
     display: flex;
     justify-content: center;
@@ -52,22 +64,14 @@ hr{
     font-weight: lighter;
     font-family: 'comfortaa';
     background-color: transparent;
-        font-style:normal;
-        border: 1px solid #ffffff;
-        border-radius:20px 20px 20px 20px;
-        -moz-border-radius:20px 20px 20px 20px;
-        -webkit-border-radius:20px 20px 20px 20px;
-        cursor:pointer;
-        margin: 1.3%;
-        padding: 1%; 
-}
-
-#botoes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 25%;
+    font-style:normal;
+    border: 1px solid #ffffff;
+    border-radius:20px 20px 20px 20px;
+    -moz-border-radius:20px 20px 20px 20px;
+    -webkit-border-radius:20px 20px 20px 20px;
+    cursor:pointer;
+    margin: 1.3%;
+    padding: 1%; 
 }
 
 footer{

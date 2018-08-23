@@ -15,20 +15,6 @@ body{
     justify-content: space-around;
 }
 
-#bur{
-    margin: 15px;
-    height: 30px;
-    cursor: pointer;
-}
-
-h1{
-    display: flex;
-    font-family: 'Comfortaa', cursive;
-    color: white;
-    font-size: 100%;
-    align-items: center;
-}
-
 #a{
     display: flex;
     text-decoration: none;
@@ -39,27 +25,18 @@ h1{
     align-items: center;  
 }
 
-#chat{
-    width: 90%;
+h1{
     display: flex;
-    margin: auto;
-    margin-top: 5%;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 100%;
+    align-items: center;
 }
 
-#texto{
-    width: 95%;
-    height: 35px;
-    display: flex;
-    margin: auto;
-    margin-top: 5%;
-    justify-content: center;
-    font-size: 120%;
-    font-family: 'comfortaa';
-    background-color: transparent;
-        font-style:normal;
-        border: 1px solid grey;
-        border-radius:20px 20px 20px 20px;
-        cursor:pointer;
+#bur{
+    margin: 15px;
+    height: 30px;
+    cursor: pointer;
 }
 
 #menu{
@@ -84,4 +61,27 @@ h1{
 
 #menu a:nth-child(6){
     margin-bottom: 60px;
+}
+
+#chat{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#texto{
+    width: 95%;
+    height: 35px;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: center;
+    font-size: 120%;
+    font-family: 'comfortaa';
+    background-color: transparent;
+        font-style:normal;
+        border: 1px solid grey;
+        border-radius:20px 20px 20px 20px;
+        cursor:pointer;
 }
