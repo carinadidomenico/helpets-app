@@ -35,6 +35,7 @@ section{
     background-color: white;
     height: 90vh;
     width: 100vw;
+    
 }
 
 #menu a{
@@ -60,14 +61,15 @@ section{
 #faixa1 h1{
     color: white;
     font-family: 'Comfortaa';
-    font-size: 15pt;
+    font-size: 12pt;
     margin-top: 30px;
+    margin-left: 1px;
 }
 
 #faixa1 h2{
-    color: white;
+    color: rgb(187, 184, 184);
     font-family: 'Comfortaa';
-    font-size: 10pt;
+    font-size: 9pt;
     margin-top: 0px;
 }
 
@@ -89,7 +91,9 @@ h1{
     margin-left: 13px;
     font-family: 'Comfortaa';
     font-weight: lighter;
-    font-size: 10pt;
+    font-size: 11pt;
+    margin-right: 9%;
+    
 }
 
 h2{
@@ -112,3 +116,11 @@ h2{
 #imgi{
     height: 167px;
 }
+.arru{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+
