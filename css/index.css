@@ -17,8 +17,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    margin: 30% auto 0;
+    width: 100%;
+    margin: 50% auto 0;
 }
 
 footer{

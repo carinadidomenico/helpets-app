@@ -14,9 +14,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
-    margin-left: 38%;
-    margin-top: 10%;
+    width: 30%;
+    margin: auto;
+    margin-top: 15%;
 }
 
 #login{
